@@ -40,7 +40,6 @@ class StudentComparator implements Comparator {
             } else return s1.getFname().compareTo(s2.getFname());
         } else if (s1.getCgpa() > s2.getCgpa()) return -1;
         else return 1;
-
     }
 }
 
